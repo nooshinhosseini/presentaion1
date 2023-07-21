@@ -1,0 +1,161 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://nooshinhosseini.github.io/presentaion1/manifests/manifest1.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://c2e253e0-05b0-430c-adda-661216c947ef",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://03a44e27-ef77-401b-9842-01d560aa0ddf",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 538,
+      "width" : 903,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bb14925b-99c7-4394-80d0-5b070395a208",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-24-00/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-24-00",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 538,
+          "width" : 903
+        },
+        "on" : "http://03a44e27-ef77-401b-9842-01d560aa0ddf"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://331c28b8-3000-456d-8419-d85e3fc2d85b",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 720,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4f77800b-d719-47b6-b4b0-5b1fb0c03a40",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-23-58/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-23-58",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 720,
+          "width" : 1280
+        },
+        "on" : "http://331c28b8-3000-456d-8419-d85e3fc2d85b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b711862a-bc66-4530-934b-8f5500b573e5",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 720,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cbf3d6ee-567d-4d89-87db-01672247a5b6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-24-02/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-24-02",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 720,
+          "width" : 1280
+        },
+        "on" : "http://b711862a-bc66-4530-934b-8f5500b573e5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0d06c267-5522-4f02-9662-c2533c69b53c",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1280,
+      "width" : 720,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://03ccf5d0-9c93-4885-ab52-2ff83733bd3d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-24-04/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_09-24-04",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1280,
+          "width" : 720
+        },
+        "on" : "http://0d06c267-5522-4f02-9662-c2533c69b53c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://920d35d8-4982-4d72-b65d-aa1fed9096d2",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1280,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9ad70fed-fd0d-4e92-9656-91896c8e28f6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_10-39-46/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/photo_2023-07-21_10-39-46",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1280,
+          "width" : 1280
+        },
+        "on" : "http://920d35d8-4982-4d72-b65d-aa1fed9096d2"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4fb3e46d-7c08-48cf-881c-0b8663b445b3",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
