@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://nooshinhosseini.github.io/presentaion1/manifests/manifest1.json",
     "label" : "[Click to edit label]"
+  }, {
+    "id" : "https://nooshinhosseini.github.io/presentaion1/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Bahar before the unrest", "" ]
+    },
+    "type" : "Manifest"
   } ]
 }
