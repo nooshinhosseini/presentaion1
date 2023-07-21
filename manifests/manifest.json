@@ -1,0 +1,30 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://nooshinhosseini.github.io/presentaion1/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Bahar before the unrest", "" ]
+  },
+  "items" : [ {
+    "id" : "/config/manifest-templates/blank.json/canvas/3dd97465-ee33-4a0b-bcf7-9f2d9a1f9daa",
+    "type" : "Canvas",
+    "label" : {
+      "en" : [ "video_2023-07-21_09-24-25" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/3dd97465-ee33-4a0b-bcf7-9f2d9a1f9daa/annotation-page/c94881f0-b683-4c20-a1f9-84dcffdc8e01",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/cf160dff-26f7-4d43-b606-fa3f1843cc73",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/3dd97465-ee33-4a0b-bcf7-9f2d9a1f9daa",
+        "body" : {
+          "id" : "https://archive.org/download/video_2023-07-21_09-24-25/video_2023-07-21_09-24-25.mp4",
+          "type" : "Video",
+          "format" : "video/mp4"
+        }
+      } ]
+    } ]
+  } ]
+}
